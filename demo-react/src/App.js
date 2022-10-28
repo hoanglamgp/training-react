@@ -1,14 +1,18 @@
-import logo from "./logo.svg";
 import "./App.css";
-import Task from "./Component/Header/task";
+import Header from "./layout/Header";
+import MainContent from "./layout/MainContent";
+import Sidebar from "./layout/Sidebar";
 
+import "./App.css";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <Task />
-      </header>
-    </div>
+    <>
+      <Header />
+      <div className="main-content">
+        <Sidebar />
+        <MainContent />
+      </div>
+    </>
   );
 }
 
