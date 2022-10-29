@@ -6,20 +6,11 @@ import './style.scss';
 
 const TodoList = (props) => {
 
+  
   return (
-    <div className="todos">
-      <TodoItem />
-      <TodoItem />
-      <TodoItem />
-      <TodoItem />
-      <TodoItem />
-      <TodoItem />
-      <TodoItem />
-      <TodoItem />
-      <TodoItem />
-      <TodoItem />
-      <TodoItem />
-      <TodoItem />
+    
+    <div className="todos"> 
+      <TodoItem status="New"/>
     </div>
   );
 };
