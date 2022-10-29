@@ -1,35 +1,46 @@
 .card {
-    height: 150px;
+    height: 180px;
     border-radius: 10px;
     flex: 1 0 21%;
     border: 2px solid var(--primary);
     margin-right: 15px;
     margin-top: 15px;
-  
+
     &__container {
-      padding: 20px;
+        padding: 20px;
     }
-  
-    &__title,
+
+    &__description > p:first-child,
     &__status,
-    &__description > p:first-child {
-      font-weight: bold;
+    &__title {
+        font-weight: bold;
     }
-  
+
     &__status {
-      &--new {
-        color: var(--new);
-      }
+        &--new {
+            color: var(--new);
+        }
     }
     &__lineBreak {
-      height: 2px;
-      background: var(--primary);
+        height: 2px;
+        background: var(--primary);
     }
-  
+
     &__description > p:last-child {
-      overflow: hidden;
-      display: -webkit-box;
-      -webkit-line-clamp: 2;
-      -webkit-box-orient: vertical;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
     }
-  }
+
+    &__select {
+        box-sizing: border-box;
+        width: 115px;
+        height: 30px;
+        background: #FFFFFF;
+        border: 1px solid #675BF1;
+        border-radius: 10px;
+        margin-left: 25%;
+        text-align: center;
+    }
+}

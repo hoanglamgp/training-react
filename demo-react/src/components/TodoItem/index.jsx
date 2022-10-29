@@ -12,7 +12,7 @@ const TodoItem = (props) => {
         </p>
         <p className="card__creator">
           <label>Creator: </label>
-          <label>Nam</label>
+          <label>Name</label>
         </p>
         <p className="card__status">
           <label>Status: </label>
@@ -20,6 +20,13 @@ const TodoItem = (props) => {
         </p>
         <hr className="card__lineBreak" />
         <p className="card__description">Description: This is a task</p>
+      </div>
+      <div >
+        <select className="card__select" >
+          <option value="New">New</option>
+          <option value="Doing">Doing</option>
+          <option value="Done">Done</option>
+        </select>
       </div>
     </div>
   );

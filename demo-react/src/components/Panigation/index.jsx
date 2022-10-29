@@ -2,6 +2,8 @@ import React from 'react';
 
 import './style.scss';
 
+
+
 const Pagination = (props) => {
   return (
     <div className="pagination">

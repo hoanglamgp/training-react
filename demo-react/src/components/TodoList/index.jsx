@@ -5,6 +5,7 @@ import TodoItem from '../TodoItem';
 import './style.scss';
 
 const TodoList = (props) => {
+
   return (
     <div className="todos">
       <TodoItem />
