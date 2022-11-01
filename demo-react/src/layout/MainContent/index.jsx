@@ -1,6 +1,7 @@
 import React from 'react';
 import Pagination from '../../components/Panigation';
 import TodoList from '../../components/TodoList';
+import Form from '../../components/Form';
 
 
 import './style.scss'
@@ -8,10 +9,16 @@ import './style.scss'
 
 const MainContent = (props) => {
   return (
+
+    <>
     <div className="main-container">
-      <TodoList />
-      <Pagination />
+      {/* <TodoList />
+      <Pagination /> */}
     </div>
+    <div className="form-container">
+    <Form />
+  </div>
+    </>
   );
 };
 

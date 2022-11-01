@@ -4,8 +4,15 @@ import TodoItem from '../TodoItem';
 
 import './style.scss';
 
+
+
+
 const TodoList = (props) => {
 
+  // switchoff = function(){
+  //   localStorage.setItem('state', 'off');
+  //   this.setState({lights: 'off'}); 
+  // },
   
   return (
     
